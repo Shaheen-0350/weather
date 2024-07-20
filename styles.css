@@ -23,7 +23,6 @@ button {
     display: flex;
     gap: 5px;
     flex-direction: row;
-    width: 70%;
     margin: auto;
     margin-top: 50px;
 }
