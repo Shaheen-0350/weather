@@ -1,0 +1,77 @@
+body {
+    background-image: url('icons/weather-05.webp');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Playwrite HR Lijeva';
+    color: whitesmoke;
+    font-weight: bold;
+}
+input {
+    height: 37px;
+    vertical-align: top;
+    font-size: 18px;
+    border: dashed black;
+    flex: 3;
+    font-family: 'Playwrite HR Lijeva';
+}
+
+button {
+    border: solid black 2px;
+    flex: 0.5;
+}
+#header {
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#dataItems {
+    padding-top: 5px;
+    width: 80vw;
+    height: 100%;
+    margin: auto;
+    margin-top: 80px;
+    padding-bottom: 5px;
+}
+
+#cityName {
+    margin-top: 20px;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+#dataItems img {
+    display: block;
+    width: 200px;;
+    margin: auto;
+    margin-top: -10px;
+
+}
+
+#temp, #day {
+    text-align: center;
+    font-size: 40px;
+}
+
+#header, #dataItems {
+    background-color: rgb(255, 255, 255, 0.1)
+}
+#temp {
+    margin-top: -50px;
+}
+
+#feels {
+    font-size: 25px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+@media (max-width: 725px) {
+    body{
+        background-image: url('./icons/images.jpeg')
+    } 
+}

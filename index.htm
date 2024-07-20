@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            What's the weather?
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="icons/temperature.png">
+    </head>
+    <body>
+        <div id="header">
+            <input id="search" type="text" placeholder="Name your city" autocomplete="off">
+            <button id="btn" onclick="getData()"><img src="icons/search.png"></button>
+
+        </div>
+        <div id="dataItems">
+            <p id="cityName">Showing results for: <span id="city">?????</span></p>
+            <img id="icon" src="https://pngimg.com/uploads/question_mark/question_mark_PNG142.png" id="tempIcon">
+            <p id="day">???</p>
+            <p id="temp"><span id='c'>??</span>&deg;C or <span id='f'>??</span>&deg;F</p>
+            <p id="feels">Feels like: <span id="feelC">??</span>&deg;C or <span id="feelF">??</span>&deg;F</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
