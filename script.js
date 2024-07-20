@@ -26,5 +26,6 @@ function getData() {
 
         }).catch(error => {
             window.alert(`No search results for: "${searchData.value}"`);
+        }
 )
 }
