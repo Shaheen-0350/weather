@@ -20,6 +20,7 @@ button {
     flex: 0.5;
 }
 #header {
+    width: 70%;
     display: flex;
     gap: 5px;
     flex-direction: row;
@@ -68,4 +69,11 @@ button {
     text-align: center;
     margin-top: -40px;
 }
-
+@media (max-width: 720px) {
+    #dataItems {
+        width: 100%;
+    }
+    #header {
+        width: 90%;
+    }
+}
