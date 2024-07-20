@@ -24,5 +24,7 @@ function getData() {
             feelC.innerHTML=data.current.feelslike_c;
             feelF.innerHTML=data.current.feelslike_f;
 
-        })
+        }).catch(error => {
+            window.alert(`No search results for: "${searchData.value}"`);
+)
 }
